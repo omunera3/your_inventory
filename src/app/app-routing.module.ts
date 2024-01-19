@@ -11,6 +11,10 @@ const routes: Routes = [
     path: 'product-list',
     loadChildren: () => import('./feature/views/product-list/product-list.module').then(m => m.ProductListModule)
   },
+  {
+    path: 'sizes',
+    loadChildren: () => import('./feature/views/sizes/sizes.module').then(m => m.SizesModule)
+  },
   { path: '', redirectTo: '/category-list', pathMatch: 'full' },
   { path: '**', redirectTo: '/category-list', pathMatch: 'full' },
 ];
