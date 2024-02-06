@@ -4,4 +4,36 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height: 60px;
+    margin-top: 5px;
+}
+
+
+//buttons
+
+.button{
+    background-color: #0771c0;
+    width: 157px;
+    height: 43px;
+    border-radius: 7px;
+    border: none;
+}
+
+// textos
+
+.txt-btn{
+    color: white;
+}
+
+.text{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-category{
+    padding: 0 0 0.5rem 1rem;
+    font-size: 1.5rem;
 }
