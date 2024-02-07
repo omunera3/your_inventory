@@ -18,6 +18,8 @@
     width: 95%;
     height: 95%;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-buttons{
@@ -28,7 +30,7 @@
 .nav-titles-category{
     display: flex;
     justify-content: center;
-    height: 70px;
+    height: 50px;
 }
 .container-tiles-category{
     height: 100%;
@@ -43,4 +45,8 @@
     border-bottom: 2px solid #0771c0;
     display: flex;
     align-items: end;
+}
+
+.table-container{
+    flex-grow: 0.9;
 }

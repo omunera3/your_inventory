@@ -12,6 +12,18 @@ body, html {
     margin-top: 5px;
 }
 
+tr{
+    text-align: center;
+    align-items: center;
+    height: 50px;
+}
+
+input{
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    height: 37px;
+    width: 100%;
+}
 
 //buttons
 
@@ -21,6 +33,22 @@ body, html {
     height: 43px;
     border-radius: 7px;
     border: none;
+}
+
+.btn-action{
+    height: 37px;
+    width: 96%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-save{
+    background-color: #0771c0;
+}
+
+.btn-delete{
+    background-color: #b71e37;
 }
 
 // textos
